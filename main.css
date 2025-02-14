@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 50px 0;
+    box-sizing: border-box;
+    border: 1px solid#ffff;
+    box-shadow: 0px 4px 8.7px 0px #000000;
+    background-color: #ffff;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    list-style: none;
+}
+.header_item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header_link{
+    color: rgb(188,170,170);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+.header_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 52px;
+}
+.header_btn{
+    width: 220px;
+    box-sizing: border-box;
+    border: 5px solid #ef400f;
+    border-radius: 28px;
+    background-color: #d9d9d900;
+    padding: 15px 0;
+    color: #ef400f;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    transition: 0.5s ease-in-out;
+}
+.header_link:hover{
+    color: #ef400f;
+    border-bottom: 3px solid #ef400f;
+}
+.header_btn:hover{
+    background-color: #ef400f;
+    color: white;
+}
+.hero{
+    padding: 70px 0
+}
+.hero_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.hero_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero_right{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.hero_shop{
+    color: blue;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.hero_title{
+    color: #ef400f;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+}
